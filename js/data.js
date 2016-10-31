@@ -8,7 +8,7 @@ var data = {
     databases: ["Written as the sequel to QUEL, it is now the standard for databases.", "This database is named after a piece of furniture.", "This database can be used on mobile phones.", "This category of databases doesn't store its data in tables, instead it stores as documents.", "This type of database enables Six Degrees of Separation queries."] 
   },
   answers: {
-    acronyms: ["Hypertext Transfer Protocol", "Domain Name System", "Cascading Style Sheets", "Internet Protocol", "Asynchronous JavaScript and XML"],
+    acronyms: ["Hypertext Transfer Protocol", "Domain Name Service", "Cascading Style Sheets", "Internet Protocol", "Asynchronous JavaScript and XML"],
     network: ["Latency", "Router", "ISP", "Firewall", "802.11"],
     web: ["Ruby on Rails", "Linux, Apache, MySQL, and PHP", "MEAN - MongoDB, Express, Angular, and Node", "Django", "React"],
     coding: ["JavaScript", "PHP", "Ruby", "Java", "C"],
