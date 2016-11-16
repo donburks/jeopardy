@@ -1,5 +1,80 @@
-body { background-color: blue; font-family: Arial, Helvetica, sans-serif; text-align: center;}
-#board { width: 98%; margin: 10px auto; padding-left: 8%;}
-#question {display: none; color: gold; font-size: 5em; font-weight: bold;}
-header .cell { line-height: inherit; }
-.cell { color: gold; font-size: 2rem; font-weight: bold; height: 100px; text-align: center; border: 1px solid gold; padding: 5px; line-height: 3em; cursor: pointer; }
+body{ 
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif; text-align: center;
+	background: #157EFB; /* fallback for old browsers */
+/*	background: -webkit-linear-gradient(to left, #55A4F2 , #556FF2); 
+	background: linear-gradient(to left, #55A4F2 , #556FF2);*/
+            
+}
+#board { 
+	width: 98%; 
+	margin: 10px auto; 
+	padding-left: 8%;
+}
+#question{
+	display: none; 
+	color: white; 
+	font-size: 3em; 
+	/*font-weight: bold;*/
+	font-family: "Open Sans";
+	letter-spacing: 0.1rem;
+	padding: 50px;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .cell { 
+	line-height: inherit;
+	border: none;
+	color: white; 
+	font-size: 20px;
+	margin: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none; 
+}
+
+header.cell:hover{
+	background-color:none;
+}
+
+.title{
+	height: 56px;
+}
+
+.cell{ 
+	letter-spacing: 0.1em;
+	color: white; 
+	font-size: 2rem; 
+	font-weight: bold; 
+	height: 100px; 
+	text-align: center; 
+	border: 1px solid white; 
+	padding: 5px; 
+	line-height: 3em; 
+	cursor: pointer;
+	margin: 10px;
+
+}
+
+.cell:hover{
+	background-color: white;
+	color: #157EFB;
+	-webkit-box-shadow: 10px 10px 48px -23px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 48px -23px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 48px -23px rgba(0,0,0,0.75); 
+
+}
+
+.jeopardy-logo{
+	font-family: 'Bungee Shade', cursive;
+	font-size: 40px;
+	color: white;
+	padding-top: 5px;
+	left:-2px;
+}
+
+
+
+
+
