@@ -1,17 +1,83 @@
 var data = {
-  categories: ["Acronyms", "Network Terms", "Web Stack", "Coding Languages", "Databases"],
+  categories: [
+    "Jargon", 
+    "Tools", 
+    "Acronyms", 
+    "Digital Literacy",
+    "Resources"
+  ],
   questions: {
-    acronyms: ["HTTP", "DNS", "CSS", "IP, as in IP Address", "AJAX"],
-    network: ["This term is for when transmission over a network connection is slow. Also known as 'lag'", "This device allows multiple computers to share the same IP Address", "This is the name for a type of company which provides connectivity to homes and businesses.", "This is the term for a piece of software that protects your network against incoming attacks.", "More commonly known as WiFi, this is the actual number of the protocol for wireless internet."],
-    web: ["This framework is based in Ruby, and is very popular with startups. Also, Shopify and GitHub.", "Known as the LAMP stack, it consists of these four popular components.", "It's always 'nice' to use this ____ stack, which includes Angular and MongoDB.", "This framework shares the name with the main character from a Quentin Tarantino movie. Also, written in Python.", "This front-end framework, written by Facebook, is extremely popular since it came out just over a year ago."],
-    coding: ["Originally written just for the browser, this language can now be used  on the server side, using Node.", "Used by products like WordPress and Facebook, this is one of the most popular web programming languages of all time.", "Written to make coding enjoyable, this language is named after a jewel.", "Now owned by Oracle, a lot of business software is written in this coffee-themed language.", "Originally written in 1978, this language is still used today to build software and operating systems such as Unix and Linux."],
-    databases: ["Written as the sequel to QUEL, it is now the standard for databases.", "This database is named after a piece of furniture.", "This database can be used on mobile phones.", "This category of databases doesn't store its data in tables, instead it stores as documents.", "This type of database enables Six Degrees of Separation queries."] 
+    jargon: [
+      "This is the term for recognizing similarities between objects or repetition in a sequence.", 
+      "This term means breaking a large problem down into smaller steps.", 
+      "The process of reducing complexity by representing a sequence as a single concept.", 
+      "The term for a sequence of instructions, designed to solve a problem.", 
+      "Revered by Spock and Sherlock Holmes alike, this concept permeates all of Computational Thinking." 
+    ],
+    tools: [
+      "This visual programming tool by MIT is very popular.", 
+      "This drag and drop tool helps you build Choose Your Own Adventure games.", 
+      "A card game developed here in Vancouver to teach sequencing.", 
+      "Made by Lego, these robots are fun to program, but expensive.", 
+      "A squishy tool, located just behind and above the eyes. Invaluable, but underutilized."
+    ],
+    acronyms: [
+      "CT", 
+      "ADST", 
+      "ICT", 
+      "CUEBC", 
+      "JS"
+    ],
+    digital: [
+      "World's most popular web browser", 
+      "#2 Most common source of viruses", 
+      "Name for a scam where a site or e-mail impersonates another service to steal your credentials", 
+      "Term for making a copy of your data for safekeeping", 
+      "What has to appear in a URL for you to know it is secure"
+    ],
+    resources: [
+      "This website is responsible for the Hour of Code movement.",
+      "This company is based in Montreal and offers coding and computational thinking workshops across the country.",
+      "This website is sponsored by CUEBC as a resource hub for coding and computational thinking.",
+      "This company is Canada's #1 bootcamp, offering adult education on coding and other technology.",
+      "This university runs the Centre for Computational Thinking."
+    ]
   },
   answers: {
-    acronyms: ["Hypertext Transfer Protocol", "Domain Name Service", "Cascading Style Sheets", "Internet Protocol", "Asynchronous JavaScript and XML"],
-    network: ["Latency", "Router", "ISP", "Firewall", "802.11"],
-    web: ["Ruby on Rails", "Linux, Apache, MySQL, and PHP", "MEAN - MongoDB, Express, Angular, and Node", "Django", "React"],
-    coding: ["JavaScript", "PHP", "Ruby", "Java", "C"],
-    databases: ["SQL", "CouchDB", "SQLite", "NoSQL", "Graph"]
+    jargon: [
+      "Pattern Recognition", 
+      "Decomposition", 
+      "Abstraction", 
+      "Algorithm", 
+      "Logic"
+    ],
+    tools: [
+      "Scratch", 
+      "Twine", 
+      "Littlecodr", 
+      "Mindstorm", 
+      "Brain"
+    ],
+    acronyms: [
+      "Computational Thinking", 
+      "Applied Design, Skills and Technology", 
+      "Information and Communications Technologies", 
+      "Computer Using Educators of British Columbia", 
+      "JavaScript, the only actual programming language included in the new curriculum, at the Grade 9 ICT level."
+    ],
+    digital: [
+      "Google Chrome", 
+      "E-mail attachments", 
+      "Phishing", 
+      "Backup", 
+      "HTTPS"
+    ],
+    resources: [
+      "code.org",
+      "Kids Code Jeunesse",
+      "codebc.ca",
+      "Lighthouse Labs",
+      "Carnegie Mellon University"
+    ]
   }
 };
