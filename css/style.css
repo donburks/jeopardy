@@ -28,6 +28,7 @@ nav p {
 	margin: 10px auto; 
 	padding-left: 8%;
 }
+
 #question{
 	display: none; 
 	color: white; 
@@ -50,10 +51,6 @@ header .cell {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none; 
-}
-
-header.cell:hover{
-	background-color:none;
 }
 
 .title{
@@ -82,6 +79,14 @@ header.cell:hover{
 	-moz-box-shadow: 10px 10px 48px -23px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 48px -23px rgba(0,0,0,0.75); 
 
+}
+
+header .cell:hover{
+	background-color: #157EFB;
+  color: white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .jeopardy-logo{
