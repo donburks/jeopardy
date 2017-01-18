@@ -52,4 +52,12 @@ $(function() {
       return false;
     }
   });
+
+  $("nav").on('click', function() {
+    $("#overlay").add("#modal").removeClass('hide');
+  });
+
+  $("#overlay").on('click', function() {
+    $("#overlay").add("#modal").addClass('hide');
+  });
 });

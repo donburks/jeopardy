@@ -5,6 +5,24 @@ body{
 	background: linear-gradient(to left, #55A4F2 , #556FF2);*/
             
 }
+nav {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  color: #157EFB;
+  position: fixed;
+  left: -50px;
+  cursor: pointer;
+}
+
+nav p {
+  transform: rotate(45deg);
+  height: 95px;
+  float: right;
+  line-height: 115px;
+}
+
 #board { 
 	width: 98%; 
 	margin: 10px auto; 
@@ -74,7 +92,29 @@ header.cell:hover{
 	left:-2px;
 }
 
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.4;
+  z-index: 10;
+}
 
+#modal {
+  background-color: white;
+  z-index: 20;
+  color: #157EFB;
+  width: 50%;
+  height: 30%;
+  padding: 20px;
+  position: fixed;
+  top: 35%;
+  left: 25%;
+}
 
-
-
+.hide {
+  display: none;
+}
